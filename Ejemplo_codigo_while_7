@@ -1,0 +1,8 @@
+#Validacion email
+while True:
+    email = input("Introduce tu email: ")
+    if "@upq" in email and ".edu.mx" in email:
+        print("Email valido.")
+        break
+    else:
+        print("Email no valido, inteta de nuevo.")
