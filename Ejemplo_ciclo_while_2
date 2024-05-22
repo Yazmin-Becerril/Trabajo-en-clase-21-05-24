@@ -1,0 +1,5 @@
+respuesta = ''
+while respuesta != 'Salir':
+    respuesta = input("Escribe 'Salir' para terminar el programa: ")
+    print("Escribiste: ", respuesta)
+    print("Has salido del programa.")
