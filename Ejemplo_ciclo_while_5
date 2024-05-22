@@ -1,0 +1,9 @@
+#Validacion de entrada de usuario
+while True:
+    entrada = input("Introduce un numero entero: ")
+    if entrada.isdigit():
+        numero = int(entrada)
+        print(f"El nuero entero es {numero}.")
+        break
+    else:
+        print("Error: Entrada no valida, por favor introduce un numero entero.")
