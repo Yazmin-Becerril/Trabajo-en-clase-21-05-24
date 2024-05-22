@@ -1,0 +1,6 @@
+while True:
+    entrada = input("Escribe 'salir' para detener el bucle: ")
+    if entrada == 'salir':
+        print("Deteniendo el bucle.")
+        break
+    print("Continuando el bucle.")
